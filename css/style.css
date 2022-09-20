@@ -1423,9 +1423,9 @@ body.page-loaded .preloader svg path {
 
 .navbar {
   width: 100%;
-}
-.navbar.dark {
-  background: #3A3089;
+} 
+.navbar.dark { 
+  background: #202427;
 }
 .navbar.navbar-light {
   background: transparent;
@@ -3372,8 +3372,7 @@ body.page-loaded .preloader svg path {
 .footer .social-media {
   display: flex;
   flex-wrap: wrap;
-  margin-left: auto;
-  margin-bottom: 80px;
+  margin-bottom: 0;
   padding: 0;
 }
 .footer .social-media li {
