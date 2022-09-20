@@ -231,6 +231,8 @@
 
   const scroll = new LocomotiveScroll(options);
 
+  new ResizeObserver(() => scroll.update()).observe(document.querySelector(".smooth-scroll")); 
+
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.addEventListener("refresh", () => scroll.update());
   ScrollTrigger.refresh();
