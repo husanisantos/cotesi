@@ -1271,7 +1271,7 @@ body.page-loaded .preloader svg path {
   margin-bottom: 20px;
 }
 .section-title figure img {
-  height: 44px;
+  height: 100px;
 }
 .section-title h6 {
   width: 100%;
@@ -2765,6 +2765,11 @@ body.page-loaded .preloader svg path {
 }
 
 /* SPONSOR LOGOS */
+.sponsors {
+  -webkit-box-shadow: 5px 5px 15px 0px rgba(201,201,201,1);
+  -moz-box-shadow: 5px 5px 15px 0px rgba(201,201,201,1);
+  box-shadow: 5px 5px 15px 0px rgba(201,201,201,1);
+}
 .sponsor-title {
   width: 100%;
   display: block;
