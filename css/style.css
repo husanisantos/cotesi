@@ -1110,6 +1110,10 @@ body.page-loaded .preloader svg path {
   position: relative;
   white-space: nowrap;
 }
+.custom-button.small {
+  width: 180px;
+  height: 34px;
+}
 .custom-button.light {
   color: #fff;
 }
@@ -1166,6 +1170,11 @@ body.page-loaded .preloader svg path {
   background: #0376ff;
   border-radius: 64px;
 }
+.custom-button.small .circle {
+  width: 34px;
+  height: 34px;
+}
+
 .custom-button .circle .icon {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -1180,6 +1189,9 @@ body.page-loaded .preloader svg path {
   width: 18px;
   height: 2px;
   background: none;
+}
+.custom-button.small .circle .icon.arrow {
+  left: 3px;
 }
 .custom-button .circle .icon.arrow::before {
   content: '';
@@ -1205,6 +1217,10 @@ body.page-loaded .preloader svg path {
   line-height: 64px;
   text-align: center;
   font-size: 15px;
+}
+.custom-button.small .button-text {
+  top: -13px;
+  left: -13px;
 }
 .custom-button:hover {
   color: #fff;
