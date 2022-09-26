@@ -3993,3 +3993,7 @@ body.page-loaded .preloader svg path {
     width: 100%;
   }
 }
+
+.events-slider-content.swiper-container-vertical.swiper-container-android {
+  pointer-events: none !important;
+}

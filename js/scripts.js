@@ -3,6 +3,9 @@
   $(document).ready(function () {
     "use strict";
 
+    //$('[data-to]').on('click', function(e){
+
+    //});
 
     // MASONRY
     $('.events-grid').isotope({
