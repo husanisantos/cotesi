@@ -3994,6 +3994,7 @@ body.page-loaded .preloader svg path {
   }
 }
 
-.events-slider-content.swiper-container-vertical.swiper-container-android {
+.events-slider-content.swiper-container-vertical.swiper-container-android,
+.events-slider-content.swiper-container-vertical {
   pointer-events: none !important;
 }
