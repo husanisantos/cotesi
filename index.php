@@ -119,21 +119,21 @@
                         <figure>
                           <img src="images/icon-date.svg" alt="Image">
                         </figure>
-                        <span>28 de Setembro - 8:00</span>
+                        <span>28 de Setembro - 19:00</span>
                       </div>
                       <!-- end date -->
-                      <h2>Do zero à startup</h2>
-                      <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1608/" target="_blank" class="slider-button">
+                      <h2>Conceitos básicos de uma aplicação Android</h2>
+                      <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="slider-button">
                         <span class="circle" aria-hidden="true">
                           <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">INSCREVA-SE</span>
+                        <span class="button-text">PARTICIPE</span>
                       </a>
                       <div class="location">
                         <div class="icon">
                           <img src="images/icon-location.svg" alt="Image">
                         </div>
-                        <span>IFSP - VOTUPORANGA</span>
+                        <span>ONLINE</span>
                       </div>
                       <!-- end location -->
                     </div>
@@ -497,7 +497,7 @@
                         </div>
                         <!-- end event-time -->
                         <div class="event-description">
-                          <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank"><h5>Conceitos básicos de uma aplicação Android</h5></a>
+                          <h5>Conceitos básicos de uma aplicação Android</h5>
                           <p>Ludmila Maschio</p>
 
                           <div class="row">
@@ -544,7 +544,7 @@
                         </div>
                         <!-- end event-time -->
                         <div class="event-description">
-                          <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank"><h5>Inteligência Artificial</h5></a>
+                          <h5>Inteligência Artificial</h5>
                           <p>Hiago Brajato</p>
 
                           <div class="row">
