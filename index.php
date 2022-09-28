@@ -500,63 +500,83 @@
                           <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank"><h5>Conceitos básicos de uma aplicação Android</h5></a>
                           <p>Ludmila Maschio</p>
 
-                           <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
+                          <div class="row">
+                            <div class="col-12 col-md-6 pt-4">
+                              <!-- INICIO DO BOTÃO COM EFEITO -->
+                              <div class="d-inline-block w-100 mb-2">
+                                <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank" class="custom-button small">
+                                  <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                  </span>
+                                  <span class="button-text">INSCREVA-SE</span>
+                                </a>
+                              </div>
+                              <!-- FIM DO BOTÃO COM EFEITO -->
 
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://www.youtube.com/user/ifspvotuporanga" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">YOU TUBE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
+                              <!-- INICIO DO BOTÃO COM EFEITO -->
+                              <div class="d-inline-block w-100 mb-2">
+                                <a href="https://teams.live.com/meet/9337790039229" target="_blank" class="custom-button small">
+                                  <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                  </span>
+                                  <span class="button-text">SALA VIRTUAL</span>
+                                </a>
+                              </div>
+                              <!-- FIM DO BOTÃO COM EFEITO -->
+                            </div>
 
+                            <div class="col-12 col-md-6 text-center mt-n3">
+                              <img width="150" src="images/qr-2809.jpeg" />
+                            </div>
+
+                          </div>
                         </div>
                         <!-- end event-description -->
                       </div>
                       <!-- end timeline -->
+
+
+
+
                       <div class="timeline">
                         <div class="event-time">
                           <img src="images/icon-time.svg" alt="Image">20:55 às 22:35 (online)
                         </div>
                         <!-- end event-time -->
                         <div class="event-description">
-                          <h5>Inteligência Artificial</h5>
+                          <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank"><h5>Inteligência Artificial</h5></a>
                           <p>Hiago Brajato</p>
 
-                           <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1611/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
+                          <div class="row">
+                            <div class="col-12 col-md-6 pt-4">
+                              <!-- INICIO DO BOTÃO COM EFEITO -->
+                              <div class="d-inline-block w-100 mb-2">
+                                <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1611/" target="_blank" class="custom-button small">
+                                  <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                  </span>
+                                  <span class="button-text">INSCREVA-SE</span>
+                                </a>
+                              </div>
+                              <!-- FIM DO BOTÃO COM EFEITO -->
 
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://www.youtube.com/user/ifspvotuporanga" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">YOU TUBE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
+                              <!-- INICIO DO BOTÃO COM EFEITO -->
+                              <div class="d-inline-block w-100 mb-2">
+                                <a href="https://teams.live.com/meet/9337790039229" target="_blank" class="custom-button small">
+                                  <span class="circle" aria-hidden="true">
+                                    <span class="icon arrow"></span>
+                                  </span>
+                                  <span class="button-text">SALA VIRTUAL</span>
+                                </a>
+                              </div>
+                              <!-- FIM DO BOTÃO COM EFEITO -->
+                            </div>
 
+                            <div class="col-12 col-md-6 text-center mt-n3">
+                              <img width="150" src="images/qr-2809.jpeg" />
+                            </div>
+
+                          </div>
                         </div>
                         <!-- end event-description -->
                       </div>
@@ -687,25 +707,26 @@
                       <!-- end timeline -->
                       <div class="timeline">
                         <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:40 (online)
+                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:30 (Presencial)
                         </div>
                         <!-- end event-time -->
                         <div class="event-description">
-                          <h5>Sonhe, planeje execute e persista!</h5>
+                          <h5>COTESI - Sonhe, planeje execute e persista!</h5>
                           <p>Marcelo Daniel</p>
-                        </div>
-                        <!-- end event-description -->
 
-                        <!-- INICIO DO BOTÃO COM EFEITO -->
-                        <div class="d-block w-100 mb-3">
-                          <a href="https://www.youtube.com/user/ifspvotuporanga" target="_blank" class="custom-button small">
-                            <span class="circle" aria-hidden="true">
-                              <span class="icon arrow"></span>
-                            </span>
-                            <span class="button-text">YOU TUBE</span>
-                          </a>
+                          <!-- INICIO DO BOTÃO COM EFEITO -->
+                          <div class="d-block w-100 mb-3">
+                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1741/" target="_blank" class="custom-button small">
+                              <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                              </span>
+                              <span class="button-text">INSCREVA-SE</span>
+                            </a>
+                          </div>
+                          <!-- FIM DO BOTÃO COM EFEITO -->
+
                         </div>
-                        <!-- FIM DO BOTÃO COM EFEITO -->
+                        <!-- end event-description -->   
 
                       </div>
                       <!-- end timeline -->

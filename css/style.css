@@ -4028,5 +4028,7 @@ body.page-loaded .preloader svg path {
 .slider-button { 
   pointer-events: auto;
 }
-
+.mt-n3 {
+  margin-top: -15px;
+}
     
