@@ -515,7 +515,7 @@
 
                               <!-- INICIO DO BOTÃO COM EFEITO -->
                               <div class="d-inline-block w-100 mb-2">
-                                <a href="https://teams.live.com/meet/9337790039229" target="_blank" class="custom-button small">
+                                <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="custom-button small">
                                   <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                   </span>
@@ -526,7 +526,7 @@
                             </div>
 
                             <div class="col-12 col-md-6 text-center mt-n3">
-                              <img width="150" src="images/qr-2809.jpeg" />
+                              
                             </div>
 
                           </div>
@@ -562,7 +562,7 @@
 
                               <!-- INICIO DO BOTÃO COM EFEITO -->
                               <div class="d-inline-block w-100 mb-2">
-                                <a href="https://teams.live.com/meet/9337790039229" target="_blank" class="custom-button small">
+                                <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="custom-button small">
                                   <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                   </span>
@@ -573,7 +573,7 @@
                             </div>
 
                             <div class="col-12 col-md-6 text-center mt-n3">
-                              <img width="150" src="images/qr-2809.jpeg" />
+                             
                             </div>
 
                           </div>
