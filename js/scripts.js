@@ -3,6 +3,13 @@
   $(document).ready(function () {
     "use strict";
 
+    let selector = '.schedule-box .nav';
+    $(selector + ' > div').each(function( index ){
+      if($(this).hasClass('active')) {
+        $(selector).scrollLeft( $(this).outerWidth() * index );
+      }
+    });
+
     //$('[data-to]').on('click', function(e){
 
     //});

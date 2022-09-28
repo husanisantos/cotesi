@@ -3634,8 +3634,19 @@ body.page-loaded .preloader svg path {
     display: inline-block;
   }
 
-  .navbar .navbar-button {
-    display: none;
+  
+  .navbar .navbar-button a {
+    padding: 5px 15px;
+    height: auto;
+  }
+
+  .navbar .logo a img:first-child {
+    height: 50px;
+  }
+
+  .navbar .logo a img:not(:first-child) {
+    height: 17px;
+    padding-left: 10px;
   }
 
   .slider {
@@ -4013,6 +4024,9 @@ body.page-loaded .preloader svg path {
 }
 .meta .vagas {
   background: #01a9e7;
+}
+.slider-button { 
+  pointer-events: auto;
 }
 
     
