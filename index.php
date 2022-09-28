@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?ver=<?= filemtime( __DIR__ . '/css/style.css') ?>">
 </head>
 
 <body>
@@ -911,7 +911,7 @@
   <script src="js/gsap.min.js"></script>
   <script src="js/locomotive-scroll.min.js"></script>
   <script src="js/ScrollTrigger.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="js/scripts.js?ver=<?= filemtime( __DIR__ . '/js/scripts.js') ?>"></script>
 
 </body>
 
