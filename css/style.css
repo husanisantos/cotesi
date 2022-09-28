@@ -3998,3 +3998,21 @@ body.page-loaded .preloader svg path {
 .events-slider-content.swiper-container-vertical {
   pointer-events: none !important;
 }
+
+.meta span {
+  padding: 1px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0 10px 15px 0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+}
+.meta .cat {
+  background: #ffa400;
+}
+.meta .vagas {
+  background: #01a9e7;
+}
+
+    
