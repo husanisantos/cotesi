@@ -123,7 +123,7 @@
                       </div>
                       <!-- end date -->
                       <h2>Conceitos básicos de uma aplicação Android</h2>
-                      <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="slider-button">
+                      <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="slider-button">
                         <span class="circle" aria-hidden="true">
                           <span class="icon arrow"></span>
                         </span>
@@ -515,7 +515,7 @@
 
                               <!-- INICIO DO BOTÃO COM EFEITO -->
                               <div class="d-inline-block w-100 mb-2">
-                                <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="custom-button small">
+                                <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="custom-button small">
                                   <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                   </span>
@@ -562,7 +562,7 @@
 
                               <!-- INICIO DO BOTÃO COM EFEITO -->
                               <div class="d-inline-block w-100 mb-2">
-                                <a href="https://meet.google.com/pcg-rvds-yoc" target="_blank" class="custom-button small">
+                                <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="custom-button small">
                                   <span class="circle" aria-hidden="true">
                                     <span class="icon arrow"></span>
                                   </span>
