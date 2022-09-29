@@ -707,7 +707,7 @@
                       <!-- end timeline -->
                       <div class="timeline">
                         <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:30 (Presencial)
+                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:30 (Online)
                         </div>
                         <!-- end event-time -->
                         <div class="event-description">
@@ -721,6 +721,17 @@
                                 <span class="icon arrow"></span>
                               </span>
                               <span class="button-text">INSCREVA-SE</span>
+                            </a>
+                          </div>
+                          <!-- FIM DO BOTÃO COM EFEITO -->
+
+                          <!-- INICIO DO BOTÃO COM EFEITO -->
+                          <div class="d-block w-100 mb-3">
+                            <a href=" https://meet.google.com/gjy-azos-thi" target="_blank" class="custom-button small">
+                              <span class="circle" aria-hidden="true">
+                                <span class="icon arrow"></span>
+                              </span>
+                              <span class="button-text">SALA VIRTUAL</span>
                             </a>
                           </div>
                           <!-- FIM DO BOTÃO COM EFEITO -->
