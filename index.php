@@ -28,11 +28,6 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-
-  <link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-  <link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-  <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-  <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
   <link href="ico/favicon.png" rel="shortcut icon">
   <!-- CSS FILES -->
   <link rel="stylesheet" href="css/fontawesome.min.css">
@@ -119,21 +114,21 @@
                         <figure>
                           <img src="images/icon-date.svg" alt="Image">
                         </figure>
-                        <span>28 de Setembro - 19:00</span>
-                      </div>
+                        <span>30 de Setembro - 8:00</span>
+                      </div> 
                       <!-- end date -->
-                      <h2>Conceitos básicos de uma aplicação Android</h2>
-                      <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="slider-button">
+                      <h2>Como ser um líder e como os líderes inpiram...</h2>
+                      <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1637/" target="_blank" class="slider-button">
                         <span class="circle" aria-hidden="true">
                           <span class="icon arrow"></span>
                         </span>
-                        <span class="button-text">PARTICIPE</span>
+                        <span class="button-text">INSCREVA-SE</span>
                       </a>
                       <div class="location">
                         <div class="icon">
                           <img src="images/icon-location.svg" alt="Image">
                         </div>
-                        <span>ONLINE</span>
+                        <span>IFSP - VOTUPORANGA</span>
                       </div>
                       <!-- end location -->
                     </div>
@@ -249,7 +244,7 @@
                       <small class="date">27 DE SETEMBRO DE 2022</small>
                     </div>
                     <!-- tab-nav -->
-                    <div class="active" data-bs-toggle="tab" data-bs-target="#tab-content03">
+                    <div data-bs-toggle="tab" data-bs-target="#tab-content03">
                       <span class="day">DIA 03</span>
                       <small class="date">28 DE SETEMBRO DE 2022</small>
                     </div>
@@ -259,7 +254,7 @@
                       <small class="date">29 DE SETEMBRO DE 2022</small>
                     </div>
                     <!-- tab-nav -->
-                    <div data-bs-toggle="tab" data-bs-target="#tab-content05">
+                    <div class="active" data-bs-toggle="tab" data-bs-target="#tab-content05">
                       <span class="day">DIA 05</span>
                       <small class="date">30 DE SETEMBRO DE 2022</small>
                     </div>
@@ -381,7 +376,7 @@
 
                     </div>
                     <!-- end event-description -->
-                    <div class="tab-pane fade show active" id="tab-content03">
+                    <div class="tab-pane" id="tab-content03">
                       <div class="timeline">
                         <div class="event-time">
                           <img src="images/icon-time.svg" alt="Image">08:00 às 09:40 (Presencial)
@@ -743,7 +738,7 @@
                       <!-- end timeline -->
                     </div>
                     <!-- end timeline -->
-                    <div class="tab-pane fade" id="tab-content05">
+                    <div class="tab-pane fade show active" id="tab-content05">
                       <div class="timeline">
                         <div class="event-time">
                           <img src="images/icon-time.svg" alt="Image">8:00 às 09:40 (Presencial)
