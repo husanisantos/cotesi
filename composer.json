@@ -1,6 +1,5 @@
 {
     "require": {
-        "cartalyst/sentinel": "^6.0",
-        "mikecao/flight": "^2.0"
+        "cocur/slugify": "^4.3"
     }
 }

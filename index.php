@@ -1,3 +1,30 @@
+<?php
+
+/**------------------------------------------
+ * Importa as classes via namespace para uso
+ * ------------------------------------------
+ */
+use Cocur\Slugify\Slugify;
+
+/**------------------------------------------
+ * Importa as classes via composer autoload
+ * ------------------------------------------
+ */
+require __DIR__ . '/vendor/autoload.php';
+
+/**------------------------------------------
+ * Captura os eventos do arquivo eventos.json
+ * ------------------------------------------
+ */
+$eventos = json_decode(file_get_contents(__DIR__ . '/eventos.json'));
+
+/**------------------------------------------
+ * Instancia a variavel para utilizar slug
+ * ------------------------------------------
+ */
+$slugify = new Slugify();
+?>
+
 <!doctype html>
 <html lang="pt-BR">
 
@@ -234,6 +261,14 @@
               <div data-scroll data-scroll-speed="0.5">
                 <div class="schedule-box">
                   <div class="nav">
+
+                    <?php foreach ($eventos as $key => $evento) { ?>
+                      <div data-bs-toggle="tab" data-bs-target="#tab-content01">
+                        <span class="day">DIA 01</span>
+                        <small class="date">26 DE SETEMBRO DE 2022</small>
+                      </div>
+                    <!-- tab-nav -->
+                    <?php } ?>
                     <div data-bs-toggle="tab" data-bs-target="#tab-content01">
                       <span class="day">DIA 01</span>
                       <small class="date">26 DE SETEMBRO DE 2022</small>
