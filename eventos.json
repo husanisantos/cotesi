@@ -1,13 +1,20 @@
 [
     {
         "titulo" : "Dia 1",
-        "data"   : "2023-05-23",
+        "data"   : "2023-05-15",
         "eventos": [
             {
                 "titulo": "Abertura COTESI",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Professores e Alunos Responsáveis"
+                "autor" : "Professores e Alunos Responsáveis",
+                "links" : [
+
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
             },
             {
                 "titulo": "Educação Empreendedora",
@@ -18,10 +25,6 @@
                     {
                         "pagina": "SUAP",
                         "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
-                    },
-                    {
-                        "pagina": "SEBRAE",
-                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
                     }
                 ]
 
@@ -30,27 +33,127 @@
     },
     {
         "titulo" : "Dia 2",
-        "data"   : "2023-05-23",
+        "data"   : "2023-05-16",
         "eventos": [
             {
                 "titulo": "Abertura COTESI",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Professores e Alunos Responsáveis"
+                "autor" : "Thales Gisuato",
+                "links" : [
+
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
             },
             {
                 "titulo": "Educação Empreendedora",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
-                "autor" : "Kleber Ricardo",
+                "autor" : "Bruno Gualda",
                 "links" : [
                     {
                         "pagina": "SUAP",
                         "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
-                    },
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+        "titulo" : "Dia 3",
+        "data"   : "2023-05-17",
+        "eventos": [
+            {
+                "titulo": "Abertura COTESI",
+                "hora"  : "08:00 às 09:40",
+                "tipo"  : "Presencial",
+                "autor" : "Professores e Alunos Responsáveis",
+                "links" : [
+
                     {
-                        "pagina": "SEBRAE",
+                        "pagina": "SUAP",
                         "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
+            },
+            {
+                "titulo": "Educação Empreendedora",
+                "hora"  : "10:00 às 11:40",
+                "tipo"  : "Presencial",
+                "autor" : "Thiago Vespa",
+                "links" : [
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+        "titulo" : "Dia 4",
+        "data"   : "2023-05-18",
+        "eventos": [
+            {
+                "titulo": "Abertura COTESI",
+                "hora"  : "08:00 às 09:40",
+                "tipo"  : "Presencial",
+                "autor" : "João Falcão",
+                "links" : [
+
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
+            },
+            {
+                "titulo": "Educação Empreendedora",
+                "hora"  : "10:00 às 11:40",
+                "tipo"  : "Presencial",
+                "autor" : "Daniel Reis",
+                "links" : [
+
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
+
+            }
+        ]
+    },
+    {
+        "titulo" : "Dia 5",
+        "data"   : "2023-05-19",
+        "eventos": [
+            {
+                "titulo": "Abertura COTESI",
+                "hora"  : "08:00 às 09:40",
+                "tipo"  : "Presencial",
+                "autor" : "Paulo Fernando",
+                "links" : [
+
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                    }
+                ]
+            },
+            {
+                "titulo": "Educação Empreendedora",
+                "hora"  : "10:00 às 11:40",
+                "tipo"  : "Presencial",
+                "autor" : "Luiz Carlos Aguiar",
+                "links" : [
+                    {
+                        "pagina": "SUAP",
+                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
                     }
                 ]
 
