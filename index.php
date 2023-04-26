@@ -4,6 +4,7 @@
  * Importa as classes via namespace para uso
  * ------------------------------------------
  */
+
 use Cocur\Slugify\Slugify;
 
 /**------------------------------------------
@@ -61,7 +62,7 @@ $slugify = new Slugify();
   <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="css/fancybox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css?ver=<?= filemtime( __DIR__ . '/css/style.css') ?>">
+  <link rel="stylesheet" href="css/style.css?ver=<?= filemtime(__DIR__ . '/css/style.css') ?>">
 </head>
 
 <body>
@@ -115,7 +116,7 @@ $slugify = new Slugify();
         <!-- end logo -->
         <div class="site-menu"></div>
         <!-- end site-menu -->
-        
+
         <div class="navbar-button">
           <a href="#eventos" data-scroll-to>
             <figure>
@@ -142,7 +143,7 @@ $slugify = new Slugify();
                           <img src="images/icon-date.svg" alt="Image">
                         </figure>
                         <span>30 de Setembro - 8:00</span>
-                      </div> 
+                      </div>
                       <!-- end date -->
                       <h2>Como ser um líder e como os líderes inpiram...</h2>
                       <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1637/" target="_blank" class="slider-button">
@@ -176,7 +177,7 @@ $slugify = new Slugify();
                   </div>
                   <!-- end swiper-slide -->
                 </div>
-                <!-- end swiper-wrapper --> 
+                <!-- end swiper-wrapper -->
                 <div class="button-prev">
                   <span class="icon arrow"></span>
                 </div>
@@ -263,564 +264,35 @@ $slugify = new Slugify();
                   <div class="nav">
 
                     <?php foreach ($eventos as $key => $evento) { ?>
-                      <div data-bs-toggle="tab" data-bs-target="#tab-content01">
-                        <span class="day">DIA 01</span>
-                        <small class="date">26 DE SETEMBRO DE 2022</small>
+                      <div data-bs-toggle="tab" data-bs-target="#tab-content-<?= $slugify->slugify($evento->titulo) ?>">
+                        <span class="day"><?= $evento->titulo ?></span>
+                        <small class="date"><?= $evento->data ?></small>
                       </div>
-                    <!-- tab-nav -->
+                      <!-- tab-nav -->
                     <?php } ?>
-                    <div data-bs-toggle="tab" data-bs-target="#tab-content01">
-                      <span class="day">DIA 01</span>
-                      <small class="date">26 DE SETEMBRO DE 2022</small>
-                    </div>
-                    <!-- tab-nav -->
-                    <div data-bs-toggle="tab" data-bs-target="#tab-content02">
-                      <span class="day">DIA 02</span>
-                      <small class="date">27 DE SETEMBRO DE 2022</small>
-                    </div>
-                    <!-- tab-nav -->
-                    <div data-bs-toggle="tab" data-bs-target="#tab-content03">
-                      <span class="day">DIA 03</span>
-                      <small class="date">28 DE SETEMBRO DE 2022</small>
-                    </div>
-                    <!-- tab-nav -->
-                    <div data-bs-toggle="tab" data-bs-target="#tab-content04">
-                      <span class="day">DIA 04</span>
-                      <small class="date">29 DE SETEMBRO DE 2022</small>
-                    </div>
-                    <!-- tab-nav -->
-                    <div class="active" data-bs-toggle="tab" data-bs-target="#tab-content05">
-                      <span class="day">DIA 05</span>
-                      <small class="date">30 DE SETEMBRO DE 2022</small>
-                    </div>
-                    <!-- tab-nav -->
+
                   </div>
                   <!-- end nav -->
                   <div class="tab-content">
-                    <div class="tab-pane" id="tab-content01">
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">08:00 às 09:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Abertura COTESI</h5>
-                          <p>Professores e Alunos Responsáveis</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">10:00 às 11:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Educação Empreendedora</h5>
-                          <p>Kleber Ricardo</p>
-                          <p><b>Inscreva-se para garantir a emissão de seu certificado de participação:</b></p>
 
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">SUAP</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://forms.office.com/r/EVfq4we3HM" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">SEBRAE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                    </div>
-                    <!-- end tab-pane -->
-                    <div class="tab-pane fade" id="tab-content02">
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">8:00 às 09:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Importância da Internet na Sociedade Atual</h5>
-                          <p>Net Rubi</p>
-                          
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1640/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">10:00 às 11:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Como conseguir o seu primeiro emprego em Infosec</h5>
-                          <p>Lucas Gates</p>
-                          
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1641/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">13:30 às 17:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Oficina</h5>
-                          <p>Professores do IFSP</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-
-                    </div>
-                    <!-- end event-description -->
-                    <div class="tab-pane" id="tab-content03">
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">08:00 às 09:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Do zero à startup</h5>
-                          <p>Talis Jonatas Gomes</p>
-
-                           <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1608/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">10:00 às 11:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Acessibilidade na Web</h5>
-                          <p>Cristiane Paschoali Vidovix</p>
-
-                           <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1610/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">13:30 às 15:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-
-                          <div class="meta">
-                            <span class="cat">Minicurso</span>
-                            <span class="vagas">30 Vagas</span>
-                          </div>
-
-                          <h5>Prática de Fusão de Fibra Óptica</h5>
-                          <p>Net Rubi</p>
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1716/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">15:30 às 17:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-
-                          <div class="meta">
-                            <span class="cat">Minicurso</span>
-                            <span class="vagas">30 Vagas</span>
-                          </div>
-
-                          <h5>Prática de Fusão de Fibra Óptica</h5>
-                          <p>Net Rubi</p>
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1717/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:40 (online)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Conceitos básicos de uma aplicação Android</h5>
-                          <p>Ludmila Maschio</p>
-
-                          <div class="row">
-                            <div class="col-12 col-md-6 pt-4">
-                              <!-- INICIO DO BOTÃO COM EFEITO -->
-                              <div class="d-inline-block w-100 mb-2">
-                                <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1568/" target="_blank" class="custom-button small">
-                                  <span class="circle" aria-hidden="true">
-                                    <span class="icon arrow"></span>
-                                  </span>
-                                  <span class="button-text">INSCREVA-SE</span>
-                                </a>
-                              </div>
-                              <!-- FIM DO BOTÃO COM EFEITO -->
-
-                              <!-- INICIO DO BOTÃO COM EFEITO -->
-                              <div class="d-inline-block w-100 mb-2">
-                                <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="custom-button small">
-                                  <span class="circle" aria-hidden="true">
-                                    <span class="icon arrow"></span>
-                                  </span>
-                                  <span class="button-text">SALA VIRTUAL</span>
-                                </a>
-                              </div>
-                              <!-- FIM DO BOTÃO COM EFEITO -->
+                    <?php foreach ($eventos as $key => $evento) { ?>
+                      <div class="tab-pane" id="tab-content-<?= $slugify->slugify($evento->titulo) ?>">
+                        <?php foreach ($evento->eventos as $subkey => $subevent) { ?>
+                          <div class="timeline">
+                            <div class="event-time">
+                              <img src="images/icon-time.svg" alt="Image"><?= $subevent->hora ?> (<?= $subevent->tipo ?>)
                             </div>
-
-                            <div class="col-12 col-md-6 text-center mt-n3">
-                              
+                            <!-- end event-time -->
+                            <div class="event-description">
+                              <h5><?= $subevent->titulo ?></h5>
+                              <p><?= $subevent->autor ?></p>
                             </div>
-
+                            <!-- end event-description -->
                           </div>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-
-
-
-
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">20:55 às 22:35 (online)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Inteligência Artificial</h5>
-                          <p>Hiago Brajato</p>
-
-                          <div class="row">
-                            <div class="col-12 col-md-6 pt-4">
-                              <!-- INICIO DO BOTÃO COM EFEITO -->
-                              <div class="d-inline-block w-100 mb-2">
-                                <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1611/" target="_blank" class="custom-button small">
-                                  <span class="circle" aria-hidden="true">
-                                    <span class="icon arrow"></span>
-                                  </span>
-                                  <span class="button-text">INSCREVA-SE</span>
-                                </a>
-                              </div>
-                              <!-- FIM DO BOTÃO COM EFEITO -->
-
-                              <!-- INICIO DO BOTÃO COM EFEITO -->
-                              <div class="d-inline-block w-100 mb-2">
-                                <a href="https://meet.google.com/tqu-opez-vvi" target="_blank" class="custom-button small">
-                                  <span class="circle" aria-hidden="true">
-                                    <span class="icon arrow"></span>
-                                  </span>
-                                  <span class="button-text">SALA VIRTUAL</span>
-                                </a>
-                              </div>
-                              <!-- FIM DO BOTÃO COM EFEITO -->
-                            </div>
-
-                            <div class="col-12 col-md-6 text-center mt-n3">
-                             
-                            </div>
-
-                          </div>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                    </div>
-                    <!-- end tab-pane -->
-                    <div class="tab-pane fade" id="tab-content04">
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">08:00 às 09:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Gêmeos Digitais: Aplicações Práticas</h5>
-                          <p>João Falcão</p>
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1607/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">10:00 às 12:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>O Impacto da Computação Quântica no Futuro da Computação Distribuída</h5>
-                          <p>Professor Ricado Conde</p>
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/evento/1686/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">13:30 às 14:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM - Projeto SiDAI (Sistema de Detecção e Alarme de Incêndios) - uma solução baseada em tecnologias da Internet das Coisas para comunicação de dados sem fio e baixo consumo de energia.</h5>
-                          <p>Maria Luiza Tomaz Leal e Osvandre Alves Martins (GPCAA) - Apoio: Previne Incêndios Ltda.</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">14:00 às 14:30 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM - Desenvolvimento de um dispositivo de vibração que auxilie a navegação de pessoas com deficiência visual.</h5>
-                          <p>Gabriel Gonçalves Garcia e Natal Henrique Cordeiro</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">14:30 às 15:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM - Projeto QUALIVNH-DVQPV - Soluções tecnológicas de apoio à verificação da qualidade de Válvulas Neurológicas para Hidrocefalia - Evolução de protótipos do DVQPV (Dispositivo de Verificação da Qualidade - Caracterísiticas de Pressão-Vazão.</h5>
-                          <p>Miguel Marques Floriano e Osvandre Alves Martins (GPCAA) - Apoio: Ventura Biomédica Ltda.</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">15:00 às 15:30 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM -Aplicação de Técnicas de Visão Computacional para inspeção de defeitos na superfície de chapas laminadas de aço no processo produtivo industrial.</h5>
-                          <p>João Batista Lino e Natal Henrique Cordeiro</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">15:30 às 16:00 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM - GPCAA (Grupo de Pesquisa em Computação Aplicada à Automação) - Projetos de Pesquisa, Desenvolvimento e Inovação envolvendo automação e robótica com possibilidade de atuação de alunos como bolsista ou para TCC.</h5>
-                          <p>Prof. Dr. Osvandre Alves Martins (GPCAA)</p>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">16:00 às 16:30 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>WICM - Sistema de classificação de queimadas em florestas usando imagens aéreas de pequeno formato</h5>
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">19:00 às 20:30 (Online)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>COTESI - Sonhe, planeje execute e persista!</h5>
-                          <p>Marcelo Daniel</p>
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1741/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                          <div class="d-block w-100 mb-3">
-                            <a href=" https://meet.google.com/gjy-azos-thi" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">SALA VIRTUAL</span>
-                            </a>
-                          </div>
-                          <!-- FIM DO BOTÃO COM EFEITO -->
-
-                        </div>
-                        <!-- end event-description -->   
-
-                      </div>
-                      <!-- end timeline -->
-                    </div>
-                    <!-- end timeline -->
-                    <div class="tab-pane fade show active" id="tab-content05">
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">8:00 às 09:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Como ser um líder e como os líderes inpiram todos por suas ações</h5>
-                          <p>Anderson Cleiton da Silva</p>
-                          
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1637/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                      <div class="timeline">
-                        <div class="event-time">
-                          <img src="images/icon-time.svg" alt="Image">10:00 às 11:40 (Presencial)
-                        </div>
-                        <!-- end event-time -->
-                        <div class="event-description">
-                          <h5>Carreira e Tecnologia para Estudantes e Profissionais</h5>
-                          <p>Campus Party Na Estada</p>
-                          
-                          <!-- INICIO DO BOTÃO COM EFEITO -->
-                           <div class="d-block w-100 mb-3">
-                            <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1639/" target="_blank" class="custom-button small">
-                              <span class="circle" aria-hidden="true">
-                                <span class="icon arrow"></span>
-                              </span>
-                              <span class="button-text">INSCREVA-SE</span>
-                            </a>
-                          </div>
-                          
-                        </div>
-                        <!-- end event-description -->
-                      </div>
-                      <!-- end timeline -->
-                    </div>
+                          <!-- end timeline -->
+                        <?php } ?>
+                      </div> 
+                    <?php } ?>
                     <!-- end event-description -->
                   </div>
                   <!-- end tab-content -->
@@ -973,7 +445,7 @@ $slugify = new Slugify();
   <script src="js/gsap.min.js"></script>
   <script src="js/locomotive-scroll.min.js"></script>
   <script src="js/ScrollTrigger.min.js"></script>
-  <script src="js/scripts.js?ver=<?= filemtime( __DIR__ . '/js/scripts.js') ?>"></script>
+  <script src="js/scripts.js?ver=<?= filemtime(__DIR__ . '/js/scripts.js') ?>"></script>
 
 </body>
 
