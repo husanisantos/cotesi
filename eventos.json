@@ -1,7 +1,7 @@
 [
     {
         "titulo" : "Dia 1",
-        "data"   : "19 de maio de 2023",
+        "data"   : "2023-05-23",
         "eventos": [
             {
                 "titulo": "Abertura COTESI",
@@ -30,7 +30,7 @@
     },
     {
         "titulo" : "Dia 2",
-        "data"   : "19 de maio de 2023",
+        "data"   : "2023-05-23",
         "eventos": [
             {
                 "titulo": "Abertura COTESI",
