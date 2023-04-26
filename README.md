@@ -1,17 +1,7 @@
-# Cotesi
-Congresso de Tecnologia e Sistemas de Informação
-
-
 # **COTESI**
+Congresso de Tecnologia e Sistemas de Informação
 * Congresso de Tecnologia e Sistemas de Informação
 * Criação da página oficial do evento cujo domínio é http://cotesi.vtp.ifsp.edu.br/
-
-
-## **Instalação via composer:**
-```php
-composer install
-
-![](https://komarev.com/ghpvc/?username=VanessaSwerts&color=006bed)
 
 **Aplicações e Dados**
 
@@ -21,7 +11,9 @@ composer install
 
 **Utilidades**
 
-  ![Composer]("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg")
+ 
+<img width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" />
+ 
 
 **DevOps**
 
@@ -34,6 +26,6 @@ composer install
 
 <br/>
 
-[![Linkedin: SEU NOME](https://img.shields.io/badge/-USERNAME-blue?style=flat-square&logo=Linkedin&logoColor=white&link=LINK-DO-SEU-LINKEDIN)](LINK-DO-SEU-LINKEDIN)
-[![Gmail Badge](https://img.shields.io/badge/-seuemail@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:SEU-EMAIL)](mailto:SEU-EMAIL)
-[![GitHub SEU NOME]( https://img.shields.io/github/followers/VanessaSwerts?label=follow&style=social)](LINK-DO-SEU-GITHUB)
+## **Instalação via composer:**
+```php
+composer install
