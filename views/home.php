@@ -41,70 +41,11 @@
       </nav>
       <!-- end navbar -->
       <div class="section-wrapper" data-scroll-section>
-          <section class="slider">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-lg-6">
-                          <div class="events-slider-content">
-                              <div class="swiper-wrapper">
-                                  <div class="swiper-slide">
-                                      <div class="inner">
-                                          <div class="date">
-                                              <figure>
-                                                  <img src="public/images/icon-date.svg" alt="Image">
-                                              </figure>
-                                              <span>30 de Setembro - 8:00</span>
-                                          </div>
-                                          <!-- end date -->
-                                          <h2>Como ser um líder e como os líderes inpiram...</h2>
-                                          <a href="https://suap.ifsp.edu.br/eventos/inscricao_publica/1637/" target="_blank" class="slider-button">
-                                              <span class="circle" aria-hidden="true">
-                                                  <span class="icon arrow"></span>
-                                              </span>
-                                              <span class="button-text">INSCREVA-SE</span>
-                                          </a>
-                                          <div class="location">
-                                              <div class="icon">
-                                                  <img src="public/images/icon-location.svg" alt="Image">
-                                              </div>
-                                              <span>IFSP - VOTUPORANGA</span>
-                                          </div>
-                                          <!-- end location -->
-                                      </div>
-                                      <!-- end inner -->
-                                  </div>
-                                  <!-- end swiper-slide -->
-                              </div>
-                              <!-- end swiper-wrapper -->
-                          </div>
-                          <!-- end events-slider-content -->
-                      </div>
-                      <!-- end col-6 -->
-                      <div class="col-lg-6">
-                          <div class="events-slider-images">
-                              <div class="swiper-wrapper">
-                                  <div class="swiper-slide">
-                                      <div class="slide-image" data-background="public/images/slide-image01.jpg"></div>
-                                  </div>
-                                  <!-- end swiper-slide -->
-                              </div>
-                              <!-- end swiper-wrapper -->
-                              <div class="button-prev">
-                                  <span class="icon arrow"></span>
-                              </div>
-                              <div class="button-next">
-                                  <span class="icon arrow"></span>
-                              </div>
-                          </div>
-                          <!-- end events-slider-content -->
-                      </div>
-                      <!-- end col-6 -->
-                  </div>
-                  <!-- end row -->
-              </div>
-              <!-- end container -->
-          </section>
-          <!-- end slider -->
+
+          <!-- INICIO DOS SLIDES -->
+          <?php $slides->render() ?>
+          <!-- FIM DOS SLIDES -->
+
           <section class="content-section">
               <!-- end section-bg -->
               <div class="container">
@@ -186,7 +127,7 @@
                                   <div class="tab-content">
 
                                       <?php foreach ($eventos as $key => $evento) { ?>
-                                          <div <?= ($evento->current ? 'class="tab-pane active"' : 'class="tab-pane"') ?>  id="tab-content-<?= $slugify->slugify($evento->titulo) ?>">
+                                          <div <?= ($evento->current ? 'class="tab-pane active"' : 'class="tab-pane"') ?> id="tab-content-<?= $slugify->slugify($evento->titulo) ?>">
                                               <?php foreach ($evento->eventos as $subkey => $subevent) { ?>
                                                   <div class="timeline">
                                                       <div class="event-time">
@@ -196,6 +137,21 @@
                                                       <div class="event-description">
                                                           <h5><?= $subevent->titulo ?></h5>
                                                           <p><?= $subevent->autor ?></p>
+                                                        
+                                                          <?php if(!empty($subevent->links)) : ?>
+                                                            <?php foreach($subevent->links as $link ) : ?>
+                                                                <!-- INICIO DO BOTÃO COM EFEITO -->
+                                                                <div class="d-block w-100 mb-3">
+                                                                    <a href="<?= $link->url ?>" target="_blank" class="custom-button small">
+                                                                        <span class="circle" aria-hidden="true">
+                                                                            <span class="icon arrow"></span>
+                                                                        </span>
+                                                                        <span class="button-text"><?= $link->pagina ?></span>
+                                                                    </a>
+                                                                </div>
+                                                                <!-- FIM DO BOTÃO COM EFEITO -->
+                                                            <?php endforeach; ?>
+                                                        <?php endif; ?>
                                                       </div>
                                                       <!-- end event-description -->
                                                   </div>
@@ -238,58 +194,10 @@
                       </div>
                       <!-- end col-12 -->
 
-                      <div class="col-md col-6">
-                          <div>
-                              <div class="sponsors">
-                                  <img src="/public/images/logo01.jpg" alt="Image">
-                              </div>
-                              <!-- end sponsor-logo -->
-                          </div>
-                          <!-- end data-scroll -->
-                      </div>
-                      <!-- end col-2 -->
-                      <div class="col-md col-6">
-                          <div>
-                              <div class="sponsors">
-                                  <img src="/public/images/logo02.jpg" alt="Image">
-                              </div>
-                              <!-- end sponsor-logo -->
-                          </div>
-                          <!-- end data-scroll -->
-                      </div>
-                      <!-- end col-2 -->
-                      <div class="col-md col-6">
-                          <div>
-                              <div class="sponsors">
-                                  <img src="/public/images/logo05.png" alt="Image">
-                              </div>
-                              <!-- end sponsor-logo -->
-                          </div>
-                          <!-- end data-scroll -->
-                      </div>
-                      <!-- end col-2 -->
+                      <!-- PATROCINADORES -->
+                      <?php $emps->render() ?>
+                      <!-- FIM PATROCINADORES -->
 
-                      <div class="col-md col-6">
-                          <div>
-                              <div class="sponsors">
-                                  <img src="/public/images/logo06.png" alt="Image">
-                              </div>
-                              <!-- end sponsor-logo -->
-                          </div>
-                          <!-- end data-scroll -->
-                      </div>
-                      <!-- end col-2 -->
-
-                      <div class="col-md col-6">
-                          <div>
-                              <div class="sponsors">
-                                  <img src="/public/images/logo07.jpg" alt="Image">
-                              </div>
-                              <!-- end sponsor-logo -->
-                          </div>
-                          <!-- end data-scroll -->
-                      </div>
-                      <!-- end col-2 -->
 
                       <div class="py-4"></div>
 

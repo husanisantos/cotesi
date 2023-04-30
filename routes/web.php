@@ -6,21 +6,24 @@
  */
 
 use Cocur\Slugify\Slugify;
-use Cotesi\Helper\Assets;
 use Cotesi\Helper\Data;
 use Cotesi\Helper\Date;
+use Cotesi\Model\Patrocinador;
+use Cotesi\Model\Slide;
 
 Flight::route('/', function() {
 
-    $asset  = new Assets();
+    $slides = new Slide();
     $event  = new Data();
     $slug   = new Slugify();
     $date   = new Date();
+    $emps   = new Patrocinador();
 
     $data  = [
         'titulo'    => 'COTESI - Congresso de Tecnologia e Sistemas da Informação',
-        'assets'    => $asset->url(),
+        'slides'    => $slides,
         'eventos'   => $event->get('eventos'),
+        'emps'      => $emps,
         'slugify'   => $slug,
         'date'      => $date
     ];

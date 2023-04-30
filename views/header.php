@@ -41,7 +41,7 @@
   <div class="preloader">
     <div class="inner">
       <figure>
-        <img src="images/preloader.png" alt="Image">
+        <img src="public/images/preloader.png" alt="Image">
       </figure>
       <div class="percentage" id="percentage">0</div>
     </div>

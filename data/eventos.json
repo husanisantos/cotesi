@@ -17,14 +17,14 @@
                 ]
             },
             {
-                "titulo": "Educação Empreendedora",
-                "hora"  : "10:00 às 11:40",
+                "titulo": "Tecnologia e desenvolvimento sustentável",
+                "hora"  : "10:50 às 11:40",
                 "tipo"  : "Presencial",
-                "autor" : "Kleber Ricardo",
+                "autor" : "Luiz Sérgio Vanzela",
                 "links" : [
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
+                        "url"   : "#"
                     }
                 ]
 
@@ -39,24 +39,24 @@
                 "titulo": "Abertura COTESI",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Thales Gisuato",
+                "autor" : "Marcos Siríaco",
                 "links" : [
 
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                        "url"   : "#"
                     }
                 ]
             },
             {
-                "titulo": "Educação Empreendedora",
+                "titulo": "Tema em definição...",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
                 "autor" : "Bruno Gualda",
                 "links" : [
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
+                        "url"   : "#"
                     }
                 ]
 
@@ -68,27 +68,27 @@
         "data"   : "2023-05-17",
         "eventos": [
             {
-                "titulo": "Abertura COTESI",
+                "titulo": "Tema em definição...",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Professores e Alunos Responsáveis",
+                "autor" : "Thales Gisuato",
                 "links" : [
 
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                        "url"   : "#"
                     }
                 ]
             },
             {
-                "titulo": "Educação Empreendedora",
+                "titulo": "Habilidades do Futuro",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
                 "autor" : "Thiago Vespa",
                 "links" : [
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
+                        "url"   : "#"
                     }
                 ]
 
@@ -100,20 +100,20 @@
         "data"   : "2023-05-18",
         "eventos": [
             {
-                "titulo": "Abertura COTESI",
+                "titulo": "Tema em definição...",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "João Falcão",
+                "autor" : "Anderson Garcia",
                 "links" : [
 
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                        "url"   : "#"
                     }
                 ]
             },
             {
-                "titulo": "Educação Empreendedora",
+                "titulo": "Tema em definição...",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
                 "autor" : "Daniel Reis",
@@ -121,7 +121,7 @@
 
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://forms.office.com/r/EVfq4we3HM"
+                        "url"   : "#"
                     }
                 ]
 
@@ -133,7 +133,7 @@
         "data"   : "2023-05-19",
         "eventos": [
             {
-                "titulo": "Abertura COTESI",
+                "titulo": "Tema em definição...",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
                 "autor" : "Paulo Fernando",
@@ -146,14 +146,14 @@
                 ]
             },
             {
-                "titulo": "Educação Empreendedora",
+                "titulo": "LGPD - Uma abordagem prática do papel da LGPD na Proteção dos Dados",
                 "hora"  : "10:00 às 11:50",
                 "tipo"  : "Presencial",
                 "autor" : "Luiz Carlos Aguiar",
                 "links" : [
                     {
                         "pagina": "SUAP",
-                        "url"   : "https://suap.ifsp.edu.br/eventos/inscricao_publica/1612/"
+                        "url"   : "h#"
                     }
                 ]
 
