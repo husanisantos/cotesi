@@ -10,7 +10,7 @@ define('DOC_ROOT', __DIR__);
  * Define a constante PUBLIC
  * ------------------------------------------
  */
-define('PUB_DIR', DOC_ROOT . '/public/');
+define('PUB_DIR', DOC_ROOT . '/public/'); 
 
 /**------------------------------------------
  * Importa as classes via composer autoload

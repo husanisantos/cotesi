@@ -36,10 +36,10 @@
         "data"   : "2023-05-16",
         "eventos": [
             {
-                "titulo": "Abertura COTESI",
+                "titulo": "Marcos Siríaco",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Marcos Siríaco",
+                "autor" : "",
                 "links" : [
 
                     {
@@ -49,10 +49,10 @@
                 ]
             },
             {
-                "titulo": "Tema em definição...",
+                "titulo": "Bruno Gualda",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
-                "autor" : "Bruno Gualda",
+                "autor" : "",
                 "links" : [
                     {
                         "pagina": "SUAP",
@@ -68,10 +68,10 @@
         "data"   : "2023-05-17",
         "eventos": [
             {
-                "titulo": "Tema em definição...",
+                "titulo": "Thales Gisuato",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Thales Gisuato",
+                "autor" : "",
                 "links" : [
 
                     {
@@ -100,10 +100,10 @@
         "data"   : "2023-05-18",
         "eventos": [
             {
-                "titulo": "Tema em definição...",
+                "titulo": "Anderson Garcia",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Anderson Garcia",
+                "autor" : "",
                 "links" : [
 
                     {
@@ -113,10 +113,10 @@
                 ]
             },
             {
-                "titulo": "Tema em definição...",
+                "titulo": "Daniel Reis",
                 "hora"  : "10:00 às 11:40",
                 "tipo"  : "Presencial",
-                "autor" : "Daniel Reis",
+                "autor" : "",
                 "links" : [
 
                     {
@@ -133,10 +133,10 @@
         "data"   : "2023-05-19",
         "eventos": [
             {
-                "titulo": "Tema em definição...",
+                "titulo": "Paulo Fernando",
                 "hora"  : "08:00 às 09:40",
                 "tipo"  : "Presencial",
-                "autor" : "Paulo Fernando",
+                "autor" : "",
                 "links" : [
 
                     {
